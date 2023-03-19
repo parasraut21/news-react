@@ -4,6 +4,7 @@ import './App.css';
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import Sports from './components/Sports';
+import Footer from "./components/Footer";
 
 import Entertainment from './components/Entertainment';
 import Technology from './components/Technology';
@@ -44,6 +45,7 @@ export default class App extends Component {
         <Route exact path='/science' element={<Science/>}/>
         <Route exact path='/health' element={<Health/>}/>
         </Routes>
+        <Footer/>
         </HashRouter> 
       </>
     )
